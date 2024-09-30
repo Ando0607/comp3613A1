@@ -1,0 +1,163 @@
+[
+    {
+        "title": "Program Wiz",
+        "date": "07/05/24",
+        "description": "Advanced level",
+        "participants": {
+            "1": "John",
+            "2": "Sal",
+            "3": "Kev",
+            "4": "Beth",
+            "5": "Sofi",
+            "6": "Kris",
+            "7": "Nina",
+            "8": "Alex"
+        }
+    },
+    {
+        "title": "Code Wars",
+        "date": "03/05/23",
+        "description": "Beginner level",
+        "participants": {
+            "1": "Jeff",
+            "2": "Kris",
+            "3": "Ken",
+            "4": "Beth",
+            "5": "Sofia",
+            "6": "Sal",
+            "7": "Danny",
+            "8": "Faris",
+            "9": "Chris"
+        }
+    },
+    {
+        "title": "Runtime",
+        "date": "15/09/24",
+        "description": "Advanced level",
+        "participants": {
+            "1": "John",
+            "2": "Dan",
+            "3": "Ken",
+            "4": "Beth",
+            "5": "Dave",
+            "6": "Jeff",
+            "7": "Ally",
+            "8": "Kevin",
+            "9": "Faris",
+            "10": "Nina"
+        }
+    },
+    {
+        "title": "Coders",
+        "date": "27/04/24",
+        "description": "Beginner level",
+        "participants": {
+            "1": "Danny",
+            "2": "Sal",
+            "3": "Ken",
+            "4": "Beth",
+            "5": "Faris",
+            "6": "Ally",
+            "7": "Chris"
+        }
+    },
+    {
+        "title": "Hackathon Heroes",
+        "date": "12/11/24",
+        "description": "Intermediate level",
+        "participants": {
+            "1": "Alex",
+            "2": "Nina",
+            "3": "Chris",
+            "4": "Kevin",
+            "5": "Sofi",
+            "6": "Faris",
+            "7": "Sal",
+            "8": "Ally",
+            "9": "Ken",
+            "10": "John",
+            "11": "Beth"
+        }
+    },
+    {
+        "title": "AI Challenge",
+        "date": "10/03/25",
+        "description": "Advanced level",
+        "participants": {
+            "1": "Dave",
+            "2": "Ken",
+            "3": "Danny",
+            "4": "Nina",
+            "5": "Sofia",
+            "6": "John",
+            "7": "Faris",
+            "8": "Sofi",
+            "9": "Kevin",
+            "10": "Chris",
+            "11": "Beth",
+            "12": "Jeff"
+        }
+    },
+    {
+        "title": "Web Dev Wars",
+        "date": "02/02/24",
+        "description": "Intermediate level",
+        "participants": {
+            "1": "Jeff",
+            "2": "Kris",
+            "3": "Sal",
+            "4": "Ally",
+            "5": "Kevin",
+            "6": "Beth",
+            "7": "Dan",
+            "8": "Chris"
+        }
+    },
+    {
+        "title": "Data Science Battle",
+        "date": "05/12/23",
+        "description": "Advanced level",
+        "participants": {
+            "1": "Ken",
+            "2": "Faris",
+            "3": "Danny",
+            "4": "Jeff",
+            "5": "Sofi",
+            "6": "John",
+            "7": "Nina",
+            "8": "Sal",
+            "9": "Beth",
+            "10": "Alex"
+        }
+    },
+    {
+        "title": "UI/UX Showdown",
+        "date": "21/06/24",
+        "description": "Beginner level",
+        "participants": {
+            "1": "Sal",
+            "2": "Beth",
+            "3": "Chris",
+            "4": "Faris",
+            "5": "Ally",
+            "6": "John"
+        }
+    },
+    {
+        "title": "Cloud Computing Challenge",
+        "date": "14/08/24",
+        "description": "Intermediate level",
+        "participants": {
+            "1": "Dave",
+            "2": "Sofi",
+            "3": "Kris",
+            "4": "Kevin",
+            "5": "Alex",
+            "6": "Dan",
+            "7": "Faris",
+            "8": "Nina",
+            "9": "John",
+            "10": "Ken"
+        }
+    }
+]
