@@ -74,7 +74,7 @@ user_cli = AppGroup('user', help='User object commands')
 @click.argument("password")
 def create_user_command(username, password):
     create_user(username, password)
-    print(f'{username} created!')
+    print(f'{username} created!') 
 
 app.cli.add_command(user_cli) # add the group to the cli
 
@@ -85,6 +85,46 @@ Then execute the command invoking with flask cli with command name and the relev
 ```bash
 $ flask user create bob bobpass
 ```
+
+
+#import results from file
+@app.cli.command("import-results")
+@click.argument("file_path")
+def import_results(file_path):
+    result_message = import_results_from_file(file_path)
+    click.echo(result_message)
+
+#create competition
+@app.cli.command("create-competition")
+@click.argument("title")
+@click.argument("description")
+@click.argument("date")
+def create_competition_cmd(title, description, date):
+    result_message = create_competition(title, description, date)
+    click.echo(result_message)
+
+#add participant to a competition
+@app.cli.command("add-participant")
+@click.argument("competition_id")
+@click.argument("username")
+@click.argument("placement", type=int)
+def add_participant(competition_id, username, placement):
+    result_message = add_participant_to_competition(competition_id, username, placement)
+    click.echo(result_message)
+
+#view competitions list
+@app.cli.command("view-competitions")
+def view_competitions_list():
+    competitions_list = view_competitions()
+    click.echo(competitions_list)
+
+#view competition results
+@app.cli.command("view-competition-results")
+@click.argument("competition_id")
+def view_competition_results_cmd(competition_id):
+    result_message = view_competition_results(competition_id)
+    click.echo(result_message)
+
 
 
 # Running the Project
